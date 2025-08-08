@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Build triggered by GitHub push"
-echo "Running on host: $(172.28.0.208)"
+echo "Running on host: $(192.168.67.1)"
 git clone https://github.com/mabirhire1/jenkins-scm.git
-cd <your-repo>
+cd jenkins-scm
 ls -l
